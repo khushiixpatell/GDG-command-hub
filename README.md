@@ -1,37 +1,20 @@
-# GDG-command-hub
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-GDG Command Hub is an AI-powered operations platform designed to help GDG communities streamline event planning, sponsorship outreach, executive coordination, and content generation.
-Initially developed for Google Developer Groups on Campus Laurier, the platform centralizes recurring operational workflows into a single workspace powered by Gemini AI.
+# Run and deploy your AI Studio app
 
-## Features
+This contains everything you need to run your app locally.
 
-- Event planning and management
-- AI-generated event descriptions
-- Sponsorship outreach assistance
-- Executive task tracking
-- Community analytics dashboard
-- Meeting notes and workflow automation
-- Google Calendar integration
-- Firebase-powered data management
+View your app in AI Studio: https://ai.studio/apps/e9cd1749-d1e8-427b-9df5-ab2cc9b7b8ff
 
-## Tech Stack
-Frontend:
-- React
-- TypeScript
+## Run Locally
 
-Backend & Services:
-- Firebase
-- Google Calendar API
+**Prerequisites:**  Node.js
 
-AI:
-- Gemini API
-- Google AI Studio
 
-Deployment:
-- Firebase Hosting / Vercel
-
-## Why I Built This
-
-As President of GDG on Campus Laurier, I noticed that event planning, sponsorship outreach, content creation, and executive coordination required significant manual effort.
-GDG Command Hub was built to automate repetitive operational workflows and create a centralized workspace for managing chapter activities.
-
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
