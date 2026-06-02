@@ -2,6 +2,8 @@
 
 A centralized command and event management platform designed for Google Developer Groups (GDG) organizers to streamline event planning, team coordination, volunteer management, and operational workflows.
 
+Built to help Google Developer Group organizers, like myself, coordinate events, volunteers, and operations from a single AI-powered dashboard.
+
 ## Live Demo
 
 https://gdg-command-hub.onrender.com
